@@ -44,8 +44,8 @@ The methodology can be summarized succinctly in the following steps:
 3. Building and reiterating various models: ANFIS (both with 1 feature i.e. pitch and multiple features), ANN and SVMs
 
 A diagramatic representation of the process is as follows:
-![Image of Process Summary]
-(https://github.com/srishtis/Gender-classification-of-Speech-Signals-using-ANFIS/blob/master/process_summary.jpg)
+![Process Summary]
+(/process_summary.jpg)
 
 ### Results
 METHOD USED | EFFICIENCY OBTAINED
@@ -53,14 +53,21 @@ METHOD USED | EFFICIENCY OBTAINED
 ANN (Multi-Feature) | 90.00 %
 SVM (Multi-Feature) | 90.00 %
 ANFIS (using only Pitch as a feature) | 95.00 %
-ANFIS (Multi-Feature) 100.00 %
+ANFIS (Multi-Feature) | 100.00 %
 
 Following were the __takeaways from the result__:
 _1. The pitch of the female speakers is significantly higher than the male speakers._
+
 _2. The normalized zero crossing rate values are also higher for the female speakers than the male speakers._
+
 _3. The normalized short-time energy values are slightly higher for the female speakers than the male speakers._
+
 _4. The normalized energy entropy values are also in general slightly higher for the female speakers than the male speakers._
+
 _5. The first formant frequencies are higher for the female speakers when compared to male speakers._
+
 _6. The Neural Network and Support Vector Machine classifiers have an efficiency of 90.00% in the multi-feature format._
+
 _7. The ANFIS network using only Pitch as a feature has an efficiency of 95.00%, showing improvement over the standard methods._
+
 _8. The multi-feature ANFIS gives an efficiency of 100.00% for the given dataset, hence rectifying the error arising from the exceptional case when using only Pitch as a discriminating factor._
