@@ -45,8 +45,7 @@ The methodology can be summarized succinctly in the following steps:
 
 A diagramatic representation of the process is as follows:
 
-![Process Summary]
-(https://raw.githubusercontent.com/srishtis/Gender-classification-of-Speech-Signals-using-ANFIS/blob/master/process_summary.png)
+<img src="https://github.com/srishtis/Gender-classification-of-Speech-Signals-using-ANFIS/blob/master/process_summary.png" />
 
 ### Results
 METHOD USED | EFFICIENCY OBTAINED
