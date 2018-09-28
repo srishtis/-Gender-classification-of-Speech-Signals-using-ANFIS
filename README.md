@@ -28,6 +28,12 @@ Our secondary objective is to analyze the features extracted and first observe t
 
 ### Data Gathering
 We used the following datasets to start building our model:
+1. Database 1- NOIZEUS (University Of Texas, Dallas): Word extracted- ‘the’
+2. Database 2- American English Database (International Telecommunication Union): Word extracted- ‘the’
+3. Database 3- Modified TIMIT Database (Prof. Dan Ellis, Electrical Engineering, Columbia University): Words extracted- ‘cottage’, ‘cheese’, ‘chives’, ‘delicious’
+
+and finally...
+4. Database (for the final submission): Modified TIMIT database (derived from TIDIGITS): Words uttered: ‘oh’, ‘zero’, ‘two’, ‘three’, ‘four’, ‘five’, ‘six’, ‘seven’, ‘eight’, ‘nine’
 
 While we used the words from these datasets, we also got some of our friends, peers and acquaintances to enunciate the same words. This data creation and collection exercise not only helped us increase the volume of data to work with but also introduced us to the actual process of industry-grade problem solving and even theoretical research. 
 
@@ -50,11 +56,11 @@ ANFIS (using only Pitch as a feature) | 95.00 %
 ANFIS (Multi-Feature) 100.00 %
 
 Following were the __takeaways from the result__:
-_1. The pitch of the female speakers is significantly higher than the male speakers.
-2. The normalized zero crossing rate values are also higher for the female speakers than the male speakers._
-_3. The normalized short-time energy values are slightly higher for the female speakers than the male speakers.
-4. The normalized energy entropy values are also in general slightly higher for the female speakers than the male speakers._
-_5. The first formant frequencies are higher for the female speakers when compared to male speakers.
-6. The Neural Network and Support Vector Machine classifiers have an efficiency of 90.00% in the multi-feature format._
-_7. The ANFIS network using only Pitch as a feature has an efficiency of 95.00%, showing improvement over the standard methods.
-8. The multi-feature ANFIS gives an efficiency of 100.00% for the given dataset, hence rectifying the error arising from the exceptional case when using only Pitch as a discriminating factor._
+_1. The pitch of the female speakers is significantly higher than the male speakers._
+_2. The normalized zero crossing rate values are also higher for the female speakers than the male speakers._
+_3. The normalized short-time energy values are slightly higher for the female speakers than the male speakers._
+_4. The normalized energy entropy values are also in general slightly higher for the female speakers than the male speakers._
+_5. The first formant frequencies are higher for the female speakers when compared to male speakers._
+_6. The Neural Network and Support Vector Machine classifiers have an efficiency of 90.00% in the multi-feature format._
+_7. The ANFIS network using only Pitch as a feature has an efficiency of 95.00%, showing improvement over the standard methods._
+_8. The multi-feature ANFIS gives an efficiency of 100.00% for the given dataset, hence rectifying the error arising from the exceptional case when using only Pitch as a discriminating factor._
