@@ -44,8 +44,9 @@ The methodology can be summarized succinctly in the following steps:
 3. Building and reiterating various models: ANFIS (both with 1 feature i.e. pitch and multiple features), ANN and SVMs
 
 A diagramatic representation of the process is as follows:
+
 ![Process Summary]
-(/process_summary.jpg)
+(https://github.com/srishtis/Gender-classification-of-Speech-Signals-using-ANFIS/blob/master/process_summary.png)
 
 ### Results
 METHOD USED | EFFICIENCY OBTAINED
@@ -56,6 +57,7 @@ ANFIS (using only Pitch as a feature) | 95.00 %
 ANFIS (Multi-Feature) | 100.00 %
 
 Following were the __takeaways from the result__:
+
 _1. The pitch of the female speakers is significantly higher than the male speakers._
 
 _2. The normalized zero crossing rate values are also higher for the female speakers than the male speakers._
